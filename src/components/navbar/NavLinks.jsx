@@ -17,23 +17,28 @@ const NavLinks = () => {
   return (
     <>
       <li>
-        <a href="#acceuil" onClick={(e) => handleClick(e, "acceuil")} className="nav-link hover:text-gray-300">
-          Acceuil
+        <a href="#home" onClick={(e) => handleClick(e, "home")} className="nav-link hover:text-gray-300">
+          Home
         </a>
       </li>
       <li>
-        <a href="#quisommesnous" onClick={(e) => handleClick(e, "quisommesnous")} className="nav-link hover:text-gray-300">
-          Qui sommes-nous ?
+        <a href="#about" onClick={(e) => handleClick(e, "about")} className="nav-link hover:text-gray-300">
+          About ?
         </a>
       </li>
       <li>
-        <a href="#services" onClick={(e) => handleClick(e, "services")} className="nav-link hover:text-gray-300">
-          Services
+        <a href="#skills" onClick={(e) => handleClick(e, "skills")} className="nav-link hover:text-gray-300">
+          Skills
         </a>
       </li>
       <li>
-        <a href="#projets" onClick={(e) => handleClick(e, "projets")} className="nav-link hover:text-gray-300">
-          Projets
+        <a href="#projects" onClick={(e) => handleClick(e, "projects")} className="nav-link hover:text-gray-300">
+          Projects
+        </a>
+      </li>
+      <li>
+        <a href="#resume" onClick={(e) => handleClick(e, "resume")} className="nav-link hover:text-gray-300">
+          Resume
         </a>
       </li>
       <li>

@@ -6,7 +6,7 @@ const words = ["services", "produits", "designs", "marketing", "modélisations"]
 
 export default function Hero() {
   return (
-    <div id="acceuil" className="">
+    <div id="home" className="">
       <LampContainer>
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
@@ -19,7 +19,7 @@ export default function Hero() {
           className="text-center font-medium text-transparent text-4xl md:text-8xl pt-32
           bg-clip-text tracking-tight bg-gradient-to-br from-slate-300 to-slate-500"
         >
-          RONIN PRODUCTIONS <br />
+          Raouf PRODUCTIONS <br />
           <div className="md:text-6xl text-2xl">
             offre les meilleurs{" "}
             <FlipWords words={words} className={"text-white"} duration={1100} />

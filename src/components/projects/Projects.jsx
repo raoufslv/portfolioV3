@@ -4,9 +4,9 @@ import { useState } from "react";
 
 const categories = [
   "Tous",
-  "audiovisuel",
-  "Modélisation 3D",
-  "Design Graphique",
+  "Web",
+  "Jeux video",
+  "AI",
   "VFX",
   "ARCHVIZ",
   "filmmaking",
@@ -21,7 +21,7 @@ export default function Projects({ setRerender }) {
       ? items
       : items.filter((item) => item.category === selectedCategory);
   return (
-    <div id="projets" className="pt-36">
+    <div id="projects" className="pt-36">
       <h1 className="text-white text-4xl font-bold text-start my-8">
         NOS PROJETS
       </h1>

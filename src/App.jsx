@@ -8,6 +8,7 @@ import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
 import ScrollToTopButton from "@/components/ui/ScrollToTopButton";
 import { useState } from "react";
+import Resume from "./components/resume/Resume";
 
 function App() {
   const [rerender, setRerender] = useState(false);
@@ -20,6 +21,7 @@ function App() {
           <About />
           <Services />
           <Projects setRerender={setRerender} />
+          <Resume />
           <Contact />
         </div>
       </TracingBeam>
