@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/utils/cn";
@@ -6,7 +7,6 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [isAnimating, setIsAnimating] = useState(false);
 
-  // thanks for the fix Julian - https://github.com/Julian-AT
   const startAnimation = useCallback(() => {
     const word = words[words.indexOf(currentWord) + 1] || words[0];
     setCurrentWord(word);
@@ -56,19 +56,24 @@ export const FlipWords = ({ words, duration = 3000, className }) => {
         )}
         key={currentWord}
       >
-        {currentWord.split("").map((letter, index) => (
-          <motion.span
-            key={currentWord + index}
-            initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
-            animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            transition={{
-              delay: index * 0.08,
-              duration: 0.4,
-            }}
-            className="inline-block"
-          >
-            {letter}
-          </motion.span>
+        {currentWord.split(" ").map((word, wordIndex) => (
+          <span key={`${currentWord}-${wordIndex}`} className="inline-block">
+            {word.split("").map((letter, letterIndex) => (
+              <motion.span
+                key={`${currentWord}-${wordIndex}-${letterIndex}`}
+                initial={{ opacity: 0, y: 10, filter: "blur(8px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                transition={{
+                  delay: letterIndex * 0.08,
+                  duration: 0.4,
+                }}
+                className="inline-block"
+              >
+                {letter}
+              </motion.span>
+            ))}
+            {wordIndex < currentWord.split(" ").length - 1 && <span>&nbsp;</span>}
+          </span>
         ))}
       </motion.div>
     </AnimatePresence>

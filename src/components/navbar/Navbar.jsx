@@ -2,6 +2,7 @@ import NavLinks from "@/components/navbar/NavLinks.jsx";
 import MobileMenu from "@/components/navbar/MobileMenu.jsx";
 import Logo from "@/components/navbar/Logo.jsx";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -21,6 +22,12 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   let navbarClasses =
     "sticky top-0 z-50 mx-auto xl:px-16 lg:px-10 px-8 py-4 flex items-center 2xl:gap-96 xl:gap-44 lg:gap-36 md:gap-20 xl:text-xl lg:text-lg";
@@ -42,6 +49,14 @@ export default function Navbar() {
           <NavLinks />
         </ul>
       </nav>
+      {/* Select button for the language  */}
+      <select
+        className="custom-select rounded-md focus:outline-none focus:ring-2 focus:ring-bleuish nav-link hover:text-gray-300"
+        onChange={(e) => changeLanguage(e.target.value)}
+      >
+        <option value="en">English</option>
+        <option value="fr">French</option>
+      </select>
     </div>
   );
 }

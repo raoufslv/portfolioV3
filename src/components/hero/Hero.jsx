@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 import { LampContainer } from "@/components/ui/lamp";
 import { FlipWords } from "@/components/ui/flip-words";
-
-const words = ["services", "produits", "designs", "marketing", "modélisations"];
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+  const { t } = useTranslation();
   return (
     <div id="home" className="">
       <LampContainer>
@@ -19,13 +19,18 @@ export default function Hero() {
           className="text-center font-medium text-transparent text-4xl md:text-8xl pt-32
           bg-clip-text tracking-tight bg-gradient-to-br from-slate-300 to-slate-500"
         >
-          Raouf PRODUCTIONS <br />
+          {t("welcome")}
+          <br />
           <div className="md:text-6xl text-2xl">
-            offre les meilleurs{" "}
-            <FlipWords words={words} className={"text-white"} duration={1100} />
+            {t("description")}{" "}
+            <FlipWords
+              words={t("words", { returnObjects: true })}
+              className={"text-white"}
+              duration={1100}
+            />
           </div>
         </motion.h1>
       </LampContainer>
     </div>
   );
-} 
+}

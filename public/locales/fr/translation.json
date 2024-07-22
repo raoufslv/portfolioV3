@@ -1,0 +1,49 @@
+{
+  "welcome": "Salut, je suis Raouf.",
+  "description": "Et je suis un",
+  "words": [
+    "Ingénieur logiciel",
+    "développeur web",
+    "Diplômé en informatique visuel"
+  ],
+  "experience": [
+    {
+      "title": "Développeur web full-stack",
+      "date": "mars 2024 - présent",
+      "place": "Ronin Tek",
+      "description": "En tant que développeur Web full-stack chez Ronin Tek, j'ai eu l'opportunité de travailler sur une variété de projets, allant des sites Web de commerce électronique aux applications Web. Mon rôle consiste à collaborer avec l'équipe de conception pour créer des visuels des interfaces attrayantes et conviviales, ainsi que la mise en œuvre de fonctionnalités back-end à l'aide de Node.js et Express. J'ai également acquis de l'expérience dans la gestion de bases de données, en travaillant avec MongoDB et MySQL pour stocker et récupérer efficacement des données. m'a permis de m'épanouir tant sur le plan professionnel que personnel, en perfectionnant mes compétences techniques et en développant une passion pour le développement Web."
+    },
+    {
+      "title": "Membre développeur",
+      "date": "2021 - 2024",
+      "place": "Micro club - Université des Sciences et Technologies Houari Boumediene",
+      "description": "Dans mon rôle de développeur au sein du 'Micro Club', j'ai acquis une expérience précieuse en informatique et en développement Web. Un projet remarquable impliquait la création d'un site Web pour le hackathon 'MGV' en utilisant Next.js, Typescript et le mouvement d'encadrement. De plus, mon implication dans le club a amélioré mes compétences générales, notamment le travail d'équipe et la communication, grâce à la collaboration avec d'autres membres sur divers projets."
+    },
+    {
+      "title": "Développeur web indépendant",
+      "date": "2022 - 2023",
+      "place": "Clients recherchés",
+      "description": "Tout au long de mes aventures en freelance, j'ai eu la chance de travailler sur une variété de projets de développement web. Pendant ce temps, j'ai pris l'initiative d'apprendre et d'expérimenter de nouvelles technologies web pour suivre l'évolution constante -évolution des tendances dans le domaine. Ce voyage indépendant a été à la fois passionnant et enrichissant, m'aidant à développer mes compétences et à rester à jour dans le monde dynamique du développement Web."
+    },
+    {
+      "title": "Participant développeur",
+      "date": "2022 - présent",
+      "place": "Hackathons - USTHB & ESI...",
+      "description": "Participer à des hackathons en tant que développeur et concepteur Web a changé la donne. J'ai pu montrer mes compétences en matière de création de sites Web, de résolution de problèmes et de collaboration avec les autres. Travaillant sous pression, je me suis rapidement adapté, j'ai trouvé des idées créatives et une bonne communication avec mon équipe. En utilisant les dernières technologies, j'ai construit des expériences Web visuellement attrayantes et fonctionnelles. Les hackathons m'ont poussé à grandir, favorisant le travail d'équipe et une passion pour l'apprentissage constant dans mon domaine."
+    }
+  ],
+  "education": [
+    {
+      "title": "Informatique visuel",
+      "date": "2022 - 2024",
+      "place": "Master - Université des Sciences et Technologies Houari Boumediene",
+      "description": "Traitement d'images, apprentissage automatique, Conception et développement de jeux vidéo, Visualisation de grandes masses de données, Communication multimédia et compression d'images."
+    },
+    {
+      "title": "Informatique",
+      "date": "2019 - 2022",
+      "place": "Licence - Université des Sciences et Technologies Houari Boumediene",
+      "description": "Algorithmes, logique, langages de programmation (python, C, Java, JS,PHP), base de données (SQL), compilation, conception d'architectures et de systèmes, programmation orientée objet."
+    }
+  ]
+}

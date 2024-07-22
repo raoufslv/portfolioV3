@@ -1,0 +1,45 @@
+{
+  "welcome": "Hello, i am Raouf.",
+  "description": "And i'm a",
+  "words": ["Software engineer", "Web developer", "Computer vision graduate"],
+  "experience": [
+    {
+      "title": "Full-stack web developer",
+      "date": "mars 2024 - present",
+      "place": "Ronin Tek",
+      "description": "As a full-stack web developer at Ronin Tek, I've had the opportunity to work on a variety of projects, from e-commerce websites to web applications. My role involves collaborating with the design team to create visually appealing and user-friendly interfaces, as well as implementing back-end functionality using Node.js and Express. I've also gained experience in database management, working with MongoDB and MySQL to store and retrieve data efficiently. My time at Ronin Tek has allowed me to grow both professionally and personally, honing my technical skills and fostering a passion for web development."
+    },
+    {
+      "title": "Dev member",
+      "date": "2021 - 2024",
+      "place": "Micro club - University of Science and Technology Houari Boumediene",
+      "description": "In my role as a developer in the 'Micro Club,' I've gained valuable experience in computer science and web development. One standout project involved creating a website for the 'MGV' hackathon using Next.js, Typescript, and framer motion. Additionally, my club involvement has enhanced my soft skills, including teamwork and communication, through collaboration with fellow members on various projects."
+    },
+    {
+      "title": "Freelancer web developer",
+      "date": "2022 - 2023",
+      "place": "Customers researched",
+      "description": "Throughout my freelancing adventures, I've had the chance to work on a variety of web development projects. During this time, I've taken the initiative to learn and experiment with new web technologies to keep up with the ever-changing trends in the field. This independent journey has been both exciting and rewarding, helping me grow my skill set and stay up-to-date in the dynamic world of web development."
+    },
+    {
+      "title": "Dev participant",
+      "date": "2022 - present",
+      "place": "Hackathons - USTHB & ESI ...",
+      "description": "Participating in hackathons as a web developer and designer was a game-changer. I got to show off my skills in creating websites, solving problems, and collaborating with others. Working under pressure, I quickly adapted, came up with creative ideas, and communicated well with my team. Using the latest technologies, I built visually attractive and functional web experiences. Hackathons pushed me to grow, fostering teamwork and a passion for constant learning in my field."
+    }
+  ],
+  "education": [
+    {
+      "title": "Computer Vision",
+      "date": "2022 - 2024",
+      "place": "Master's degree - University of Science and Technology Houari Boumediene",
+      "description": "Image processing, machine learning, Design and development of video games, Visualization of large masses of data, Multimedia communication and image compression."
+    },
+    {
+      "title": "Computer Science",
+      "date": "2019 - 2022",
+      "place": "Bachelor's degree - University of Science and Technology Houari Boumediene",
+      "description": "Algorithms, logic, programming languages (python, C, Java, JS,PHP), database (SQL), compilation, design of architectures and systems, object-oriented programming."
+    }
+  ]
+}

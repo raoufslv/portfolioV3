@@ -27,5 +27,24 @@
 }
 
 .navbar.scrolled {
-  background-color: rgba(31, 41, 55, 0.9); /* Utilisation de la couleur de fond avec une légère transparence */
+  background-color: rgba(
+    31,
+    41,
+    55,
+    0.9
+  ); /* Utilisation de la couleur de fond avec une légère transparence */
+}
+
+.custom-select {
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.custom-select option {
+  background-color: #030716; /* Blue background */
+  color: #fff;
 }

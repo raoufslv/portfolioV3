@@ -7,6 +7,7 @@ const categories = [
   "Web",
   "Jeux video",
   "AI",
+  "others",
 ];
 
 export default function Projects({ setRerender }) {
@@ -19,14 +20,14 @@ export default function Projects({ setRerender }) {
   return (
     <div id="projects" className="pt-36">
       <h1 className="text-white text-4xl font-bold text-start my-8">
-        NOS PROJETS
+        MY PROJECTS
       </h1>
       <div className="flex flex-wrap justify-center mb-8 gap-8">
         {categories.map((category, idx) =>
           selectedCategory == category ? (
             <button
               key={idx}
-              className="relative inline-flex h-12 overflow-hidden rounded-xl p-[1px] "
+              className="relative inline-flex h-12 overflow-hidden rounded-xl p-[1px]"
             >
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-xl bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -91,7 +92,7 @@ const items = [
     description:
       " A stylized beetle vehicle concept design with a twist, inspired by the classic Volkswagen Beetle.",
     category: "AI",
-    header: <img src={beetle} className="h-56 object-fit" alt="beetle" />,
+    header: <img src={beetle} className="h-44 object-fit" alt="beetle" />,
     images: [
       beetle,
       beetle1,
@@ -108,7 +109,7 @@ const items = [
     description:
       "A facial rig test for a stylized giraffe character, exploring the possibilities of facial expressions.",
     category: "Web",
-    header: <img src={girrafe} className="h-56 object-fit" alt="girrafe" />,
+    header: <img src={girrafe} className="h-44 object-fit" alt="girrafe" />,
     images: [girrafe, girrafe1, girrafe2, girrafe3, girrafe4],
   },
   {
@@ -116,7 +117,7 @@ const items = [
     description:
       "A stylized raccoon character design, exploring the possibilities of character design.",
     category: "Jeux video",
-    header: <img src={raccoon} className="h-56 object-fit" alt="raccoon" />,
+    header: <img src={raccoon} className="h-[10.6rem] object-fit" alt="raccoon" />,
     images: [raccoon, raccoon1, raccoon2, raccoon3, raccoon4],
   },
 ];
