@@ -7,10 +7,6 @@ const categories = [
   "Web",
   "Jeux video",
   "AI",
-  "VFX",
-  "ARCHVIZ",
-  "filmmaking",
-  "Développement Web",
 ];
 
 export default function Projects({ setRerender }) {
@@ -89,21 +85,12 @@ import raccoon2 from "@/assets/images/raccoon2.jpg";
 import raccoon3 from "@/assets/images/raccoon3.jpg";
 import raccoon4 from "@/assets/images/raccoon4.jpg";
 
-import ahmed from "@/assets/images/ahmed.jpg";
-import ahmed1 from "@/assets/images/ahmed1.jpg";
-import ahmed2 from "@/assets/images/ahmed2.jpg";
-import ahmed3 from "@/assets/images/ahmed3.jpg";
-
-import ahmedV from "@/assets/images/ahmedV.jpg";
-import ahmedV1 from "@/assets/images/ahmedV1.jpg";
-import ahmedV2 from "@/assets/images/ahmedV2.jpg";
-
 const items = [
   {
     title: "Transforming Beetle",
     description:
       " A stylized beetle vehicle concept design with a twist, inspired by the classic Volkswagen Beetle.",
-    category: "audiovisuel",
+    category: "AI",
     header: <img src={beetle} className="h-56 object-fit" alt="beetle" />,
     images: [
       beetle,
@@ -120,7 +107,7 @@ const items = [
     title: "Facial rig test for a stylized giraffe",
     description:
       "A facial rig test for a stylized giraffe character, exploring the possibilities of facial expressions.",
-    category: "Design Graphique",
+    category: "Web",
     header: <img src={girrafe} className="h-56 object-fit" alt="girrafe" />,
     images: [girrafe, girrafe1, girrafe2, girrafe3, girrafe4],
   },
@@ -128,25 +115,8 @@ const items = [
     title: "Stylized raccoon character",
     description:
       "A stylized raccoon character design, exploring the possibilities of character design.",
-    category: "Modélisation 3D",
+    category: "Jeux video",
     header: <img src={raccoon} className="h-56 object-fit" alt="raccoon" />,
     images: [raccoon, raccoon1, raccoon2, raccoon3, raccoon4],
-  },
-
-  {
-    title: "Character creation process",
-    description:
-      "A character creation process, exploring the possibilities of character design.",
-    category: "VFX",
-    header: <img src={ahmed} className="h-56 object-fit" alt="ahmed" />,
-    images: [ahmed, ahmed1, ahmed2, ahmed3],
-  },
-  {
-    title: "Character creation process2",
-    description:
-      "A character creation process, exploring the possibilities of character design.",
-    category: "ARCHVIZ",
-    header: <img src={ahmedV} className="h-56 object-fit" alt="ahmedV" />,
-    images: [ahmedV, ahmedV1, ahmedV2],
   },
 ];
