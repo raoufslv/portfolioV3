@@ -1,13 +1,40 @@
 {
+  "navlinks": [
+    {
+      "name": "Home",
+      "url": "home"
+    },
+    {
+      "name": "About",
+      "url": "about"
+    },
+    {
+      "name": "Skills",
+      "url": "skills"
+    },
+    {
+      "name": "Projects",
+      "url": "projects"
+    },
+    {
+      "name": "Resume",
+      "url": "resume"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
   "welcome": "Hello, i am Raouf.",
   "description": "And i'm a",
   "words": ["Software engineer", "Web developer", "Computer vision graduate"],
+  "about": "I'm a full-stack web developer with over three years of experience in designing and building responsive web applications. I am proficient in React.js and Tailwind CSS, with a backend experience using Node.js and Express.js. Additionally, I have good knowledge of PHP and Next.js, along with some skills in UI and UX design.",
   "experience": [
     {
       "title": "Full-stack web developer",
       "date": "mars 2024 - present",
       "place": "Ronin Tek",
-      "description": "As a full-stack web developer at Ronin Tek, I've had the opportunity to work on a variety of projects, from e-commerce websites to web applications. My role involves collaborating with the design team to create visually appealing and user-friendly interfaces, as well as implementing back-end functionality using Node.js and Express. I've also gained experience in database management, working with MongoDB and MySQL to store and retrieve data efficiently. My time at Ronin Tek has allowed me to grow both professionally and personally, honing my technical skills and fostering a passion for web development."
+      "description": "As a full-stack web developer at Ronin Tek, I worked on various projects, including online marketplaces and portfolio websites, handling the entire project lifecycle from design to CI/CD. I used the MERN stack, server-side rendering (SSR), and Docker for containerization. This experience has significantly enhanced my technical skills and passion for web development."
     },
     {
       "title": "Dev member",

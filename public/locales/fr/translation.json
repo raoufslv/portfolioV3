@@ -1,4 +1,30 @@
 {
+  "navlinks": [
+    {
+      "name": "Accueil",
+      "url": "home"
+    },
+    {
+      "name": "Àpropos",
+      "url": "about"
+    },
+    {
+      "name": "Compétences",
+      "url": "skills"
+    },
+    {
+      "name": "Projets",
+      "url": "projects"
+    },
+    {
+      "name": "CV",
+      "url": "resume"
+    },
+    {
+      "name": "Contact",
+      "url": "contact"
+    }
+  ],
   "welcome": "Salut, je suis Raouf.",
   "description": "Et je suis un",
   "words": [
@@ -6,12 +32,13 @@
     "développeur web",
     "Diplômé en informatique visuel"
   ],
+  "about": "Je suis un développeur Web full-stack avec plus de trois ans d'expérience dans la conception et la création d'applications Web réactives. Je maîtrise React.js et Tailwind CSS, avec une expérience backend utilisant Node.js et Express.js. De plus, j'ai une bonne connaissance de PHP et Next.js, ainsi que des compétences en UI et UX design.",
   "experience": [
     {
       "title": "Développeur web full-stack",
       "date": "mars 2024 - présent",
       "place": "Ronin Tek",
-      "description": "En tant que développeur Web full-stack chez Ronin Tek, j'ai eu l'opportunité de travailler sur une variété de projets, allant des sites Web de commerce électronique aux applications Web. Mon rôle consiste à collaborer avec l'équipe de conception pour créer des visuels des interfaces attrayantes et conviviales, ainsi que la mise en œuvre de fonctionnalités back-end à l'aide de Node.js et Express. J'ai également acquis de l'expérience dans la gestion de bases de données, en travaillant avec MongoDB et MySQL pour stocker et récupérer efficacement des données. m'a permis de m'épanouir tant sur le plan professionnel que personnel, en perfectionnant mes compétences techniques et en développant une passion pour le développement Web."
+      "description": "En tant que développeur Web full-stack chez Ronin Tek, j'ai travaillé sur divers projets, notamment des marchés en ligne et des sites Web de portefeuille, gérant l'ensemble du cycle de vie du projet, de la conception au CI/CD. J'ai utilisé la pile MERN, le rendu côté serveur (SSR) et Docker pour la conteneurisation. Cette expérience a considérablement amélioré mes compétences techniques et ma passion pour le développement Web."
     },
     {
       "title": "Membre développeur",
