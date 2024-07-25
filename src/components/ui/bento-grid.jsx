@@ -6,8 +6,6 @@ import {
   ModalContent,
   ModalTrigger,
 } from "@/components/ui/animated-modal.jsx";
-import EmblaCarousel from "./Embla-carousel";
-import "@/assets/styles/embla.css";
 
 export const BentoGrid = ({ className, children }) => {
   return (
@@ -29,7 +27,6 @@ export const BentoGridItem = ({
   header,
   images,
 }) => {
-  const OPTIONS = {};
 
   return (
     <div className="py-40 flex items-center justify-center">
@@ -51,14 +48,21 @@ export const BentoGridItem = ({
           </div>
         </ModalTrigger>
         <ModalBody>
-          <ModalContent className="relative overflow-hidden bg-secondary !border-0">
-            <h4 className="text-lg md:text-2xl  font-bold text-center mb-8">
+          <ModalContent className="relative bg-secondary !border-0 overflow-y-auto">
+            <h4 className="text-lg md:text-2xl font-bold text-center mb-8">
               {title}
             </h4>
             <div className="flex md:flex-row flex-col items-center md:items-start justify-between gap-16 w-fit">
-              {/* Product images */}
-              <div className="">
-                <EmblaCarousel slides={images} options={OPTIONS} />
+              {/* Product images like a scrollable list vertically */}
+              <div className="flex flex-col gap-4">
+                {images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={image}
+                    alt={title}
+                    className="w-full h-full object-cover rounded-lg"
+                  />
+                ))}
               </div>
             </div>
           </ModalContent>
