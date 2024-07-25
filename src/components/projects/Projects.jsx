@@ -69,6 +69,19 @@ import SheTalks5 from "@/assets/images/SheTalks pics/postsPage.png";
 import thumpnail from "@/assets/images/thumpnail.png";
 import portfolio from "@/assets/images/portfolio pics/portfolio.png";
 
+import BastionApp from "@/assets/images/BastionApp pics/Capture.jpg";
+import BastionApp2 from "@/assets/images/BastionApp pics/Capture2.jpg";
+
+import DeepFakeInterface from "@/assets/images/DeepFakeInterface pics/Figma Design.png";
+
+import ImageAnalogy from "@/assets/images/ImageAnalogy pics/results1.png";
+import ImageAnalogy1 from "@/assets/images/ImageAnalogy pics/results2.png";
+import ImageAnalogy2 from "@/assets/images/ImageAnalogy pics/results3.png";
+
+import RiverPuzzle from "@/assets/images/RiverPuzzle pics/game_lost.png";
+import RiverPuzzle1 from "@/assets/images/RiverPuzzle pics/game_won.png";
+import RiverPuzzle2 from "@/assets/images/RiverPuzzle pics/screenshot_text_rendering.png";
+
 import AISite from "@/assets/images/AI-Site.png";
 import AISite1 from "@/assets/images/AI pics/Home.png";
 import AISite3 from "@/assets/images/AI pics/ComputerVision.png";
@@ -108,18 +121,20 @@ import MGV10 from "@/assets/images/MGV pics/question-dark.png";
 
 const items = [
   {
-    title: "Transforming Beetle",
+    title: "CGVortex",
     description:
-      "A stylized beetle vehicle concept design with a twist, inspired by the classic Volkswagen Beetle.",
-    category: "AI",
+      "A marketplace for 3D add-ons, built with the MERN stack and tailwind.",
+    category: "Web",
+    url: "https://www.cgvortex.com/",
     header: <img src={CGVortex} className="h-44 object-fit" alt="CGVortex" />,
     images: [CGVortex1, CGVortex2, CGVortex3],
   },
   {
-    title: "Facial rig test for a stylized giraffe",
+    title: "Ekri-Echri",
     description:
-      "A facial rig test for a stylized giraffe character, exploring the possibilities of facial expressions.",
+      "A house rental platform for the Algerian market, built with the HTML, CSS (Bootstrap), and JS and PHP.",
     category: "Web",
+    url: "https://ekri-echri.000webhostapp.com/",
     header: <img src={EkriEchri} className="h-44 object-fit" alt="EkriEchri" />,
     images: [
       EkriEchri1,
@@ -133,51 +148,115 @@ const items = [
     ],
   },
   {
-    title: "Stylized raccoon character",
+    title: "MC Got Visuals",
     description:
-      "A stylized raccoon character design, exploring the possibilities of character design.",
-    category: "Jeux video",
+      "A showcase website for a motion graphics hackathon event, built with Nextjs, tailwind and framer-motion.",
+    category: "Web",
+    url: "https://mgv.microclub.info/",
     header: <img src={MGV} className="h-[10.6rem] object-fit" alt="raccoon" />,
     images: [MGV1, MGV2, MGV3, MGV4, MGV5, MGV6, MGV7, MGV8, MGV9, MGV10],
   },
   {
-    title: "Stylized raccoon character",
+    title: "AladoShop",
     description:
-      "A stylized raccoon character design, exploring the possibilities of character design.",
-    category: "Jeux video",
+      "An e-commerce platform for a local business, with ecwid CMS platform.",
+    category: "Web",
+    url: "https://alado-shop.company.site/",
     header: (
       <img src={AladoShop} className="h-[10.6rem] object-fit" alt="AladoShop" />
     ),
     images: [AladoShop1],
   },
   {
-    title: "Stylized raccoon character",
-    description:
-      "A stylized raccoon character design, exploring the possibilities of character design.",
-    category: "Jeux video",
+    title: "AI Site",
+    description: "An AI article website, built only with HTML and CSS.",
+    category: "Web",
+    url: "https://raoufslv.github.io/AI-Article/",
     header: (
       <img src={AISite} className="h-[10.6rem] object-fit" alt="AISite" />
     ),
     images: [AISite, AISite1, AISite3, AISite4, AISite5, AISite6],
   },
   {
-    title: "Stylized raccoon character",
+    title: "Portfolio",
     description:
-      "A stylized raccoon character design, exploring the possibilities of character design.",
-    category: "Jeux video",
+      "My old portfolio website, showcasing my work and skills at the time built with React & tailwind.",
+    category: "Web",
+    url: "https://raouf-abdallah.netlify.app",
     header: (
       <img src={thumpnail} className="h-[10.6rem] object-fit" alt="thumpnail" />
     ),
     images: [portfolio],
   },
   {
-    title: "Stylized raccoon character",
+    title: "SheTalks",
     description:
-      "A stylized raccoon character design, exploring the possibilities of character design.",
-    category: "Jeux video",
+      "A Mental health platform for women, built with the MERN stack and tailwind.",
+    category: "Web",
+    url: "https://github.com/raoufslv/SheTalks-IWD-23",
     header: (
       <img src={SheTalks} className="h-[10.6rem] object-fit" alt="SheTalks" />
     ),
     images: [SheTalks1, SheTalks2, SheTalks3, SheTalks4, SheTalks5],
+  },
+  {
+    title: "Image Analogy Generator",
+    description:
+      "Using a neural network to generate images based on a given analogy.",
+    category: "AI",
+    url: "https://github.com/raoufslv/Image-Analogy-sequence-prediction",
+    header: (
+      <img
+        src={ImageAnalogy}
+        className="h-[10.6rem] w-full object-cover"
+        alt="SheTalks"
+      />
+    ),
+    images: [ImageAnalogy, ImageAnalogy1, ImageAnalogy2],
+  },
+  {
+    title: "River Puzzle Game",
+    description:
+      "A puzzle game that challenges the player to cross a river with a set of rules, built with OpenGL.",
+    category: "Jeux video",
+    url: "https://github.com/raoufslv/OpenGL-Project-3D-Game",
+    header: (
+      <img
+        src={RiverPuzzle}
+        className="h-[10.6rem]  w-full object-cover"
+        alt="SheTalks"
+      />
+    ),
+    images: [RiverPuzzle, RiverPuzzle1, RiverPuzzle2],
+  },
+  {
+    title: "DeepFake Interface",
+    description:
+      "A user interface for a deepfake software, built with python and tkinter.",
+    category: "Jeux video",
+    url: "https://github.com/raoufslv/DFL-GUI",
+    header: (
+      <img
+        src={DeepFakeInterface}
+        className="h-[10.6rem] w-full object-cover"
+        alt="SheTalks"
+      />
+    ),
+    images: [DeepFakeInterface],
+  },
+  {
+    title: "Bastion App",
+    description:
+      "A mobile app that helps users get a better knowledge of the monuments of the city of Algiers, built with Flutter.",
+    category: "others",
+    url: "https://github.com/raoufslv/bastionApp",
+    header: (
+      <img
+        src={BastionApp}
+        className="h-[10.6rem] w-full object-cover"
+        alt="BastionApp"
+      />
+    ),
+    images: [BastionApp, BastionApp2],
   },
 ];

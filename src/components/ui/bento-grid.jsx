@@ -33,7 +33,7 @@ export const BentoGridItem = ({
       <Modal className="">
         <ModalTrigger
           className={cn(
-            "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input shadow-none p-4 border-white/[0.2] bg-secondary border flex flex-col cursor-pointer h-72",
+            "row-span-1 group/bento hover:shadow-xl transition duration-200 shadow-input shadow-none p-4 border-white/[0.2] bg-secondary border flex flex-col cursor-pointer h-72",
             className
           )}
         >
