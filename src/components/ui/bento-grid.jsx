@@ -55,6 +55,7 @@ export const BentoGridItem = ({
             <a
               className="text-end underline py-2 hover:text-neutral-400 cursor-pointer"
               href={url}
+              target="_blank"
             >
               Go to the project
             </a>
