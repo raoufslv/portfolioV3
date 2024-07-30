@@ -82,6 +82,11 @@ import RiverPuzzle from "@/assets/images/RiverPuzzle pics/game_lost.png";
 import RiverPuzzle1 from "@/assets/images/RiverPuzzle pics/game_won.png";
 import RiverPuzzle2 from "@/assets/images/RiverPuzzle pics/screenshot_text_rendering.png";
 
+import sokoban1 from "@/assets/images/sokoban pics/sokoban1.png";
+import sokoban2 from "@/assets/images/sokoban pics/sokoban2.png";
+import sokoban3 from "@/assets/images/sokoban pics/sokoban3.png";
+import sokoban4 from "@/assets/images/sokoban pics/sokoban4.png";
+
 import AISite from "@/assets/images/AI-Site.png";
 import AISite1 from "@/assets/images/AI pics/Home.png";
 import AISite3 from "@/assets/images/AI pics/ComputerVision.png";
@@ -96,6 +101,9 @@ import CGVortex3 from "@/assets/images/CGVortex pics/www.cgvortex3.com_.png";
 
 import AladoShop from "@/assets/images/Aladoshop pics/aladoshop.png";
 import AladoShop1 from "@/assets/images/Aladoshop pics/home.png";
+
+import mancala1 from "@/assets/images/mancala pics/mancala1.png";
+import mancala2 from "@/assets/images/mancala pics/mancala2.png";
 
 import EkriEchri from "@/assets/images/Ekri&Echri.png";
 import EkriEchri1 from "@/assets/images/EKRI&ECHRI pics/Home.png";
@@ -209,7 +217,7 @@ const items = [
       <img
         src={ImageAnalogy}
         className="h-[10.6rem] w-full object-cover"
-        alt="SheTalks"
+        alt="ImageAnalogy"
       />
     ),
     images: [ImageAnalogy, ImageAnalogy1, ImageAnalogy2],
@@ -224,16 +232,46 @@ const items = [
       <img
         src={RiverPuzzle}
         className="h-[10.6rem]  w-full object-cover"
-        alt="SheTalks"
+        alt="RiverPuzzle"
       />
     ),
     images: [RiverPuzzle, RiverPuzzle1, RiverPuzzle2],
   },
   {
+    title: "Sokoban Puzzle",
+    description:
+      "A puzzle game where i implemented Breadth First Search algorithm and Astar algorithm to solve the levels.",
+    category: "Jeux video",
+    url: "https://github.com/raoufslv/SokoPuzzle",
+    header: (
+      <img
+        src={sokoban1}
+        className="h-[10.6rem]  w-full object-cover"
+        alt="sokoban"
+      />
+    ),
+    images: [sokoban1, sokoban2, sokoban3, sokoban4],
+  },
+  {
+    title: "Mancala Game",
+    description:
+      "A Manacala game built with python and pygame, with an AI player.",
+    category: "Jeux video",
+    url: "https://github.com/raoufslv/mancala",
+    header: (
+      <img
+        src={mancala1}
+        className="h-[10.6rem] w-full object-cover"
+        alt="Mancala"
+      />
+    ),
+    images: [mancala1, mancala2],
+  },
+  {
     title: "DeepFake Interface",
     description:
       "A user interface for a deepfake software, built with python and tkinter.",
-    category: "Jeux video",
+    category: "others",
     url: "https://github.com/raoufslv/DFL-GUI",
     header: (
       <img
