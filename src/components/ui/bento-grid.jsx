@@ -49,7 +49,7 @@ export const BentoGridItem = ({
         </ModalTrigger>
         <ModalBody>
           <ModalContent className="relative bg-secondary !border-0 overflow-y-auto">
-            <h4 className="text-lg md:text-2xl font-bold text-center mb-8">
+            <h4 className="text-lg md:text-2xl font-bold text-center mb-4">
               {title}
             </h4>
             <a
