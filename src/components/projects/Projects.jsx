@@ -50,6 +50,7 @@ export default function Projects({ setRerender }) {
             description={item.description}
             header={item.header}
             images={item.images}
+            url={item.url}
             icon={item.icon}
             className={i === 2 || i === 7 ? "md:col-span-2" : ""}
           />

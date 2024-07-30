@@ -26,11 +26,11 @@ export const BentoGridItem = ({
   description,
   header,
   images,
+  url,
 }) => {
-
   return (
     <div className="xl:py-40 flex items-center justify-center">
-      <Modal className="">
+      <Modal className="w-full">
         <ModalTrigger
           className={cn(
             "row-span-1 group/bento hover:shadow-xl transition duration-200 shadow-input shadow-none p-4 border-white/[0.2] bg-secondary border flex flex-col cursor-pointer h-72",
@@ -52,6 +52,12 @@ export const BentoGridItem = ({
             <h4 className="text-lg md:text-2xl font-bold text-center mb-8">
               {title}
             </h4>
+            <a
+              className="text-end underline py-2 hover:text-neutral-400 cursor-pointer"
+              href={url}
+            >
+              Go to the project
+            </a>
             <div className="flex md:flex-row flex-col items-center md:items-start justify-between gap-16 w-fit">
               {/* Product images like a scrollable list vertically */}
               <div className="flex flex-col gap-4">
