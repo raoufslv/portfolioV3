@@ -16,7 +16,7 @@ export default function Projects({ setRerender }) {
       <h1 className="text-white text-4xl font-bold text-start my-8">
         MY PROJECTS
       </h1>
-      <div className="flex flex-wrap justify-center mb-8 gap-8">
+      <div className="flex flex-wrap justify-center xl:mb-8 xl:gap-8">
         {categories.map((category, idx) =>
           selectedCategory == category ? (
             <button

@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { motion } from "framer-motion";
 import Experience from "./Experience.jsx";
 import { useTranslation } from "react-i18next";
 import Education from "./Education.jsx";
@@ -12,10 +11,7 @@ export default function Resume() {
         My Resume
       </h1>
       <div className="flex gap-20 items-center mt-10 flex-col lg:flex-row">
-        <motion.div
-          initial={{ x: -300, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
+        <div
           className="lg:self-start lg:mt-5">
           <div className=" flex items-center gap-3">
             <hr className="h-1-2 bg-secondary w-5 border-0" />
@@ -30,11 +26,8 @@ export default function Resume() {
               description={exp.description}
             />
           ))}
-        </motion.div>
-        <motion.div
-          initial={{ x: 300, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
+        </div>
+        <div
           className="lg:self-start lg:mt-5"
         >
           <div className=" flex items-center gap-3">
@@ -52,7 +45,7 @@ export default function Resume() {
             />
           ))}
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

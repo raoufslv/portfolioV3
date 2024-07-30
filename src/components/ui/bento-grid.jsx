@@ -29,7 +29,7 @@ export const BentoGridItem = ({
 }) => {
 
   return (
-    <div className="py-40 flex items-center justify-center">
+    <div className="xl:py-40 flex items-center justify-center">
       <Modal className="">
         <ModalTrigger
           className={cn(
