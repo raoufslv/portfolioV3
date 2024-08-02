@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div id="about">
       <h1 className="text-white text-3xl font-bold text-start pt-20">
-        About me
+        {t("titles", { returnObjects: true })[0]}
       </h1>
-      <p className="text-white text-lg text-start m-8">{t("about")}</p>
+      <p className="text-white text-lg text-start m-8 mb-0">{t("about")}</p>
     </div>
   );
 }

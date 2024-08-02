@@ -5,6 +5,7 @@ import { useState } from "react";
 const categories = ["Tous", "Web", "Jeux video", "AI", "others"];
 
 export default function Projects({ setRerender }) {
+  const { t } = useTranslation();
   const [selectedCategory, setSelectedCategory] = useState("Tous");
 
   const filteredItems =
@@ -14,9 +15,9 @@ export default function Projects({ setRerender }) {
   return (
     <div id="projects" className="pt-36">
       <h1 className="text-white text-4xl font-bold text-start my-8">
-        MY PROJECTS
+      {t("titles", { returnObjects: true })[2]}
       </h1>
-      <div className="flex flex-wrap justify-center xl:mb-8 xl:gap-8">
+      <div className="flex flex-wrap justify-center xl:mb-8 mb-4 xl:gap-8">
         {categories.map((category, idx) =>
           selectedCategory == category ? (
             <button
@@ -127,6 +128,7 @@ import MGV7 from "@/assets/images/MGV pics/Card-light.png";
 import MGV8 from "@/assets/images/MGV pics/Card-dark.png";
 import MGV9 from "@/assets/images/MGV pics/question-light.png";
 import MGV10 from "@/assets/images/MGV pics/question-dark.png";
+import { useTranslation } from "react-i18next";
 
 const items = [
   {

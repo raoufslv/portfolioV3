@@ -25,6 +25,7 @@
       "url": "contact"
     }
   ],
+  "titles": ["About me", "My Skills", "My Projects", "My Resume", "My Information"],
   "welcome": "Hello, i am Raouf.",
   "description": "And i'm a",
   "words": ["Software engineer", "Web developer", "Computer vision graduate"],

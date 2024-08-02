@@ -1,11 +1,12 @@
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 
 export default function Services() {
+  const { t } = useTranslation();
   return (
     <>
       <div id="skills" className="pt-32">
         <h1 className="text-white text-4xl font-bold text-start my-8">
-          My skills
+          {t("titles", { returnObjects: true })[1]}
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-6 gap-4">
           {ServicesContent.map((service) => (
@@ -40,6 +41,7 @@ import git from "@/assets/icons/git.png";
 import mysql from "@/assets/icons/mysql.png";
 import python from "@/assets/icons/python.png";
 import console from "@/assets/icons/console.png";
+import { useTranslation } from "react-i18next";
 
 const ServicesContent = [
   {

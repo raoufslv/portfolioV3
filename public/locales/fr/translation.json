@@ -25,6 +25,7 @@
       "url": "contact"
     }
   ],
+  "titles": ["À propos de moi", "Mes compétences", "Mes projets", "Mon CV", "Mes informations"],
   "welcome": "Salut, je suis Raouf.",
   "description": "Et je suis un",
   "words": [

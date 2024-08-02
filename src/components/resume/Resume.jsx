@@ -8,7 +8,7 @@ export default function Resume() {
   return (
     <div id="resume" className="pt-36">
       <h1 className="text-white text-4xl font-bold text-start my-8">
-        My Resume
+      {t("titles", { returnObjects: true })[3]}
       </h1>
       <div className="flex gap-20 items-center mt-10 flex-col lg:flex-row">
         <div
