@@ -14,8 +14,8 @@ export default function Contact() {
       <div className="flex justify-between md:items-start gap-10 items-center md:flex-row flex-col">
         <div className="flex flex-col justify-start items-start gap-6">
           <h2 className="text-2xl ">Contact</h2>
-          <Info icon={email} email="abderraouf.abdallah1812@gmail.com" />
-          <Info icon={phone} text="+2135 40 60 87 26" />
+          <Info icon={email} email="devcode.raouf@gmail.com" />
+          <Info icon={phone} text="(+33) 07 69 35 31 22" />
         </div>
         <div>
           <ContactForm />
