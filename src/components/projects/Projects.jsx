@@ -2,20 +2,19 @@
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid.jsx";
 import { useState } from "react";
 
-const categories = ["Tous", "Web", "Jeux video", "AI", "others"];
+const categories = ["Web", "Jeux video", "AI", "others"];
 
 export default function Projects({ setRerender }) {
   const { t } = useTranslation();
-  const [selectedCategory, setSelectedCategory] = useState("Tous");
+  const [selectedCategory, setSelectedCategory] = useState("Web");
 
-  const filteredItems =
-    selectedCategory === "Tous"
-      ? items
-      : items.filter((item) => item.category === selectedCategory);
+  const filteredItems = items.filter(
+    (item) => item.category === selectedCategory
+  );
   return (
     <div id="projects" className="pt-36">
       <h1 className="text-white text-4xl font-bold text-start my-8">
-      {t("titles", { returnObjects: true })[2]}
+        {t("titles", { returnObjects: true })[2]}
       </h1>
       <div className="flex flex-wrap justify-center xl:mb-8 mb-4 xl:gap-8">
         {categories.map((category, idx) =>
