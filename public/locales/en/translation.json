@@ -25,7 +25,13 @@
       "url": "contact"
     }
   ],
-  "titles": ["About me", "My Skills", "My Projects", "My Resume", "My Information"],
+  "titles": [
+    "About me",
+    "My Skills",
+    "My Projects",
+    "My Resume",
+    "My Information"
+  ],
   "welcome": "Hello, i am Raouf.",
   "description": "And i'm a",
   "words": ["Software engineer", "Web developer", "Computer vision graduate"],
@@ -57,6 +63,12 @@
     }
   ],
   "education": [
+    {
+      "title": "Computer Science - Web Engineering, Communicating Objects and Complex Systems (IWOCS)",
+      "date": "2024 - 2026",
+      "place": "Master's degree - University of Le Havre Normandy",
+      "description": "WEB, IoT communicating objects, mobile systems, web security, Big Data, functional programming, ubiquitous computing."
+    },
     {
       "title": "Computer Vision",
       "date": "2022 - 2024",

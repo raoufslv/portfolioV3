@@ -35,13 +35,13 @@ export default function Resume() {
             <h4 className="sm:text-2xl text-xl navbar-font">Education</h4>
           </div>
           <div className=" flex flex-col">
-          {t("education", { returnObjects: true }).map((exp, i) => (
+          {t("education", { returnObjects: true }).map((educ, i) => (
             <Education
               key={i}
-              title={exp.title}
-              date={exp.date}
-              place={exp.place}
-              description={exp.description}
+              title={educ.title}
+              date={educ.date}
+              place={educ.place}
+              description={educ.description}
             />
           ))}
           </div>
