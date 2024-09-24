@@ -54,8 +54,8 @@ export default function Navbar() {
         className="custom-select rounded-md focus:outline-none focus:ring-2 focus:ring-bleuish nav-link hover:text-gray-300"
         onChange={(e) => changeLanguage(e.target.value)}
       >
+        <option value="fr">Francais</option>
         <option value="en">English</option>
-        <option value="fr">French</option>
       </select>
     </div>
   );
